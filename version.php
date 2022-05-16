@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * YOURQTYPENAME question type version information.
+ * CodeAnalyzer question type version information.
  *
  * @package    qtype
  * @subpackage codeanalyzer
@@ -30,6 +30,3 @@ $plugin->version = 2013012900;
 $plugin->requires = 2019111800;
 $plugin->cron = 0;
 $plugin->maturity = MATURITY_ALPHA;
-$plugin->dependencies = array(
-    'qbehaviour_adaptive_adapted_for_coderunner' => 2021112300
-);
